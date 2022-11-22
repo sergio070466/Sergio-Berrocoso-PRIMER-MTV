@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                 ('Nombre', models.CharField(max_length=30)),
                 ('Edad', models.IntegerField(default=0)),
                 ('F_Nacimiento', models.DateField()),
+                ('Sexo', models.CharField(max_length=25))
             ],
         ),
     ]
