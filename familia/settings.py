@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'miappfamilia'
+    'miappfamilia',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'familia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"C:\Users\Cberr\OneDrive\Escritorio\Sergio-Berrocoso-PRIMER-MTV\miappfamilia\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

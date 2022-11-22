@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 
 
-def inicio (request):
+def inicio(request):
     return render(request, "miappfamilia/index.html")
 
 def familia(request):

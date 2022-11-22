@@ -23,7 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     
-    path('main/', include('miappfamilia.urls'))
+    path('main/', include('miappfamilia.urls')),
+    
     
 ]
 
